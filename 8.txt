@@ -1,0 +1,27 @@
+! pip install seaborn
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+dataset = sns.load_dataset('titanic')
+dataset.head()
+
+dataset
+
+#Dist Plot
+sns.displot(dataset['fare'])
+
+sns.displot(dataset['fare'],kde=False)
+
+sns.displot(dataset['fare'],kde=False,bins=10)
+
+sns.jointplot(x='age',y='fare',data=dataset)
+
+sns.jointplot(x='age',y='fare',data=dataset,kind='hex')
+
+sns.rugplot(dataset['fare'])
+
+sns.pairplot(dataset)
+
+sns.pairplot(dataset, hue='sex')

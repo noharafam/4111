@@ -1,0 +1,56 @@
+Practical 13 (SCALA program) 
+
+java --version
+sudo apt update
+sudo apt install default-jdk
+java --version
+scala -version
+sudo apt install scala
+scala -version
+scala
+
+scala> var Var4=2
+
+var Var5=3
+
+Var4+Var5
+
+Var4==Var5
+
+Var5>Var4
+
+for(a<-0 to 10){println("Value of a:"+a);}
+
+var Var3=1
+
+if(Var3==1){println("True")}else{println("False")}
+
+def mul2(m:Int): Int=m*10
+
+mul2(3)
+
+// Create HelloWorld.scala program in text editor
+
+object HelloWorld{
+
+def main(args: Array[String]){
+
+println("Hello World!")
+
+}
+}
+
+// The directory of both file & code must same 
+
+compile- scalac HelloWorld.scala
+scala HelloWorld
+
+op: Hello World! 
+
+
+
+
+
+
+
+

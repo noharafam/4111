@@ -1,0 +1,83 @@
+
+Practical 13 (SCALA program) 
+
+java --version
+sudo apt update
+sudo apt install default-jdk
+java --version
+scala -version
+sudo apt install scala
+scala -version
+scala
+
+scala> var Var4=2
+
+output:
+
+scala> var Var5=3
+
+output:
+
+Var4+Var5
+
+output:
+
+Var4==Var5
+
+output:
+
+Var5>Var4
+
+
+
+for(a<-0 to 10)
+{println("Value of a:"+a);}
+
+
+output:
+
+var Var3=1
+
+if(Var3==1){println("True")}else{println("False")}
+
+output:
+
+def mul2(m:Int): Int=m*10
+
+output:
+
+mul2(2)
+
+output:
+
+// Create HelloWorld.scala program in text editor
+
+object HelloWorld{
+
+def main(args: Array[String]){
+
+println("Hello World!")
+
+}
+}
+
+// The directory of both file & code must same 
+
+compile- scalac HelloWorld.scala
+scala HelloWorld
+
+op: Hello World! 
+
+
+
+
+
+object SumCalculator {
+  def main(args: Array[String]): Unit = {
+    val num1 = 10
+    val num2 = 5
+    val sum = num1 + num2
+    println(s"The sum of $num1 and $num2 is: $sum")
+  }
+}
+
